@@ -1,0 +1,8 @@
+services:
+  postgres:
+      image: postgres
+      environment:
+        POSTGRES_USER: pethersoncosta
+        POSTGRES_PASSWORD: pethersoncosta
+      ports:
+        - 5432:5432
